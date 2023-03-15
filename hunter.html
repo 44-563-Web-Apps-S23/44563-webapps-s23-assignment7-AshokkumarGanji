@@ -96,56 +96,128 @@
     <p id="Titleinstructions">Click on the bushes to search for the mouse, beware the cat</p>
     <p id="bushes">Number of bushes checked is zero.</p>
     <p id="penalty">Penalty is zero.</p>
-    <p id="click">Click for help.</p>
+    <p id="click" onclick="help()">Click for help.</p>
     <p id="help">Help report</p>
 
-    <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
-    <div class="row">
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i1" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i2"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i3"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="Bush.jfif" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        
-</div>
-
-
-
-    <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
-    <div class="row">
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="mouse.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        
-        
+    <div class="container">
+        <div class="image-row d-flex">
+            <div>
+                <img id="id0" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(0)">
+                <img id="id1" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(1)">
+                <img id="id2" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(2)">
+                <img id="id3" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(3)">
+                <img id="id4" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(4)">
+                <img id="id5" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(5)">
+            </div>
+        </div>
+        <div class="image-row d-flex">
+            <div>
+                <img id="id6" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(6)">
+                <img id="id7" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(7)">
+                <img id="id8" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(8)">
+                <img id="id9" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(9)">
+                <img id="id10" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(10)">
+                <img id="id11" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(11)">
+            </div>
+        </div>
+        <div class="image-row d-flex">
+            <div>
+                <img id="id12" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(12)">
+                <img id="id13" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(13)">
+                <img id="id14" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(14)">
+                <img id="id15" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(15)">
+                <img id="id16" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(16)">
+                <img id="id17" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(17)">
+            </div>
+        </div>
+        <div class="image-row d-flex">
+            <div>
+                <img id="id18" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(18)">
+                <img id="id19" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(19)">
+                <img id="id20" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(20)">
+                <img id="id21" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(21)">
+                <img id="id22" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(22)">
+                <img id="id23" src="bush.jfif" alt="Bushes" height="125" width="125" onclick="check(23)">
+            </div>
+        </div>
     </div>
-
-    <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
-    <div class="row">
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="BigCat.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-       
-        
-        
-    </div>
-    <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
-    <div class="row">
-        <div class="col-sm-1"><img src="grass.jfif" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="grass.jfif" id = "i1" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="grass.jfif" id = "i2"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="grass.jfif" id = "i3"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="grass.jfif" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        <div class="col-sm-1"><img src="grass.jfif" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-        
-    </div>
+    <script>
+        var ids=["id0","id1","id2","id3","id4","id5","id6","id7","id8","id9","id10",
+        "id11","id12","id13","id14","id15","id16","id17","id18","id19","id20","id21","id22","id23"]
+        var checkCount = 0
+        var penalty = 0
+        var lastCheck = 0
+        var mouseLocation = 13
+        var catLocation = 21
+        let gameOver = false
+        function check(position){
+            if(gameOver){
+                return;
+            }
+            var id = ids[position]
+            img = document.getElementById(id);
+            if(position==mouseLocation){
+                img.src = "mouse.jpg";
+                gameOver = true;
+                penalty -= 3;
+    
+            }
+            else if(position==catLocation){
+                img.src = "BigCat.jfif";
+                gameOver = true;
+                penalty += 4;
+            }
+            else{
+                img.src = "grass.jfif";
+            }
+            checkCount++;
+            penalty++;
+    
+            document.getElementById("bushes").innerHTML = "Number of bushes checked is: " +checkCount;
+            document.getElementById("penalty").innerHTML = "penalty: "+penalty;
+            lastCheck = position;
+            }
+            function help(){
+                console.log(lastCheck)
+                const catRow = Math.floor(catLocation/4);
+                const catCol = catLocation%6;
+                const mouseRow = Math.floor(mouseLocation/4);
+                const mouseCol = mouseLocation%6;
+                const lastRow = Math.floor(lastCheck/4);
+                const lastCol = lastCheck%6;
+                console.log(catRow)
+                console.log(catCol)
+                console.log(mouseRow)
+                console.log(mouseCol)
+                console.log(lastRow)
+                console.log(lastCol)
+                penalty = penalty+2;
+                document.getElementById("penalty").innerHTML = "Penalty is "+penalty;
+                
+               if((Math.abs(catRow-lastRow)<=1 && Math.abs(catCol-lastCol)<=1)&&(Math.abs(catRow-mouseRow)>1||Math.abs(catCol-mouseCol)>1)){
+                    document.getElementById("help").innerHTML= "meow";
+                }
+               
+                else if((Math.abs(mouseRow-lastRow)<=1 && Math.abs(mouseCol-lastCol)<=1)&&( Math.abs(catRow-mouseRow)>1||Math.abs(catCol-mouseCol)>1)){
+                    document.getElementById("help").innerHTML="squeak";
+                }
+               else{
+                document.getElementById("help").innerHTML= "sorry, no help available";
+               }
+            }
+            function newGame(){
+              mouseLocation = Math.floor(Math.random()*24)
+              catLocation = Math.floor(Math.random()*24)
+              document.getElementById("bushes").innerHTML = "Number of bushes checked is 0"
+              document.getElementById("penalty").innerHTML = "Penalty is 0"
+              for(var i=0;i<=23;i++){
+                  document.getElementById(ids[i]).src="Bush.jfif"
+                  
+              }
+          }
+            
+          
+    </script>
 
 </body>
 
